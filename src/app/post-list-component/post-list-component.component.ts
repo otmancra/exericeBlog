@@ -10,7 +10,7 @@ export class PostListComponentComponent implements OnInit {
   @Input() title : string;
   @Input() content: string;
   @Input() loveIts: number;
-  @Input() created_at: date;
+  @Input() created_at: string;
 
   test : number;
 
